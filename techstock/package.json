@@ -1,0 +1,21 @@
+{
+  "name": "backend-techstock",
+  "version": "1.0.0",
+  "description": "Sistema de inventario backend con Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Proyecto techStock listo'",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Karen Pastás",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
